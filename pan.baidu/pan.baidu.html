@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+<!--
+		<meta http-equiv="refresh" content="2;url=https://www.baidu.com/">
+-->
+		<title>百度网盘</title>
+	</head>
+
+	<body>
+		<script type="text/javascript">alert(1)</script>
+		<img src="img/pan.baidu.png" width="100%">
+		<input type="hidden" name="id" value="" accesskey="x" onclick="alert(/来啦!老弟!/)" />
+		<p>
+			<a href="gg/gg.html">
+				<img src="img/file.jpg" width="60px">哥哥
+			</a>
+			<a href="mm/mm.html">
+				<img src="img/file.jpg" width="60px">妹妹
+			</a>
+		</p>
+		<iframe src="//player.bilibili.com/player.html?aid=92298685&bvid=BV1sE411n789&cid=157595135&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+		<br>
+		<iframe src="//player.bilibili.com/player.html?aid=14509822&bvid=BV1ex411s7pR&cid=23665307&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+		<br>
+
+<!--
+		<button onclick="myFunction()">点点试试</button>
+		<p id="demo"></p>
+		<script>
+		function myFunction() {
+		  var txt;
+		  if (confirm("你是哥哥吗？")) {
+		    txt = "就这？还哥哥呢？！";
+		  } else {
+		    txt = "对喽！凑弟弟~";
+		  }
+		  document.getElementById("demo").innerHTML = txt;
+		}
+		</script>
+-->
+
+<button onclick="myFunction()">それはあなたですか</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  var person = prompt("あなたの名前：");
+  if (person == null || person == "") {
+    txt = "用户取消输入";
+  } else {
+    txt = "あなたが世界のどこにいっても、私は間違いなく再びあなたに会いに行きます" + person;
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+	</body>
+
+</html>
